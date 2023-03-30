@@ -55,17 +55,19 @@
     <section id="proyectos">
       <h2 class="header">Mis proyectos</h2>
       <div class="carousel">
-        <div class="arrow arrow-left"></div>
+        <div class="arrow arrow-left" aria-label="backward button"></div>
         <div class="window">
           <ul class="project-container">
             <li><button><img src="/images/project1.png" alt="image project" class="project project1"></button></li>
             <li><button><img src="/images/project2.png" alt="image project" class="project project2"></button></li>
             <li><button><img src="/images/project3.png" alt="image project" class="project project3"></button></li>
-            <li><button><img src="/images/project4.png" alt="image project" class="project project4"></button></li>
-            <li><button><img src="/images/project5.png" alt="image project" class="project project5"></button></li>
+            <li aria-hidden="true"><button><img src="/images/project4.png" alt="image project"
+                  class="project project4"></button></li>
+            <li aria-hidden="true"><button><img src="/images/project5.png" alt="image project"
+                  class="project project5"></button></li>
           </ul>
         </div>
-        <div class="arrow arrow-right"></div>
+        <div class="arrow arrow-right" aria-label="forward button"></div>
       </div>
     </section>
   </main>
@@ -74,9 +76,9 @@
     <h2 class="header">Contacto</h2>
     <form class="form-container">
       <label for="name">Nombre</label>
-      <input id="name" type="text" />
+      <input id="name" type="text" aria-label="nombre" />
       <label for="email">Correo</label>
-      <input id="email" type="text" />
+      <input id="email" type="text" aria-label="dirección de Correo" />
       <label for="message">Mensaje</label>
       <textarea name="message" id="message" class="message-input"></textarea>
       <button class="send-button">Enviar</button>
