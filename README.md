@@ -1,10 +1,13 @@
-# Curso de Accesibilidad Web
+# Accesibility Web
 
-En este curso, mejoraremos la accesibilidad un portafolio personal. Espero que aprendas mucho y que uses lo que aprendas aqui para implementar
-prácticas accesibles en tu propio portafolio!
+In this repository improve accessibility of a portfolio personal. This project has been part accessibility course on Platzi.
 
-Usa esta URL para probar la accesibilidad con Lighthouse al principio del curso:
-https://gmzjuliana.github.io/curso-acessibilidad-web/index.html
+Improved aspects:
+* Contrast color.
+* Keyboard navigation.
+* Alternative text.
+* Validate form information.
 
-Usa esta URL para probar la accesibilidad al final:
-https://gmzjuliana.github.io/curso-acessibilidad-web/final.html
+Test result using LightHouse
+
+![Test Accesibility Lighthouse](/images/AccesibilityTest.png)
